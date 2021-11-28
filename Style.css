@@ -1,0 +1,415 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(-100deg,rgb(255, 123, 16) 50%,#ffc400 50%);
+    height: 70vh;
+
+}
+
+
+
+.carousel-item img{
+height: 400px;
+
+}
+
+.container{
+    margin:7%;
+    margin-top:100px ;
+    margin-bottom: 50px;
+
+}
+.img-text{
+    width: 100%;
+    height: 400px;
+    background-color:black ;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+    display: block;
+}
+
+.img-text a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+
+.img-text h2{
+    font-size: 30px;
+    margin-top: 250px;
+
+}
+.img-text p{
+    font-size: 14px;
+}
+
+.single-box{
+    position: relative;
+    margin-bottom: 30px;
+}
+.img-area{
+    position: absolute;
+    width: 363px;
+    height: 230px;
+    border: 5px solid #fff;
+    overflow: hidden;
+    top: 15px;
+    left: 27px;
+    right: 27px;
+
+    
+}
+
+/* DCS detailed section */
+
+.text-middle{
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text-middle .left-side{
+    margin-top: 20px;
+    margin-left:-300px ;
+}
+
+.text-middle .right-side img{
+    height: 400px;
+    width: 650px;
+    
+}
+.text-middle .left-side{
+  margin: 54px 20px 20px 20px; 
+  
+}
+
+.Team-member{
+    border-top-left-radius: 35% 120%;
+    border-bottom-right-radius: 35% 120%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(28, 28, 109);
+    padding: 50px 130px;
+    height: 400px;
+    margin: 30px 0px;
+    
+}
+.Team-member:hover{
+    box-shadow: 0 0 10px  blue;
+    -ms-transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    transition: 0.6s;
+}
+
+
+.courses{
+margin:58px 90px;
+
+}
+
+.courses .courses-name{
+display: flex;
+justify-content: space-between;
+margin: 51px 0px;
+
+}
+
+.courses .courses-name .name{
+    padding: 10px;
+height: 548px;
+width: 400px;
+
+background-color: white;
+}
+.courses .courses-name .name img{
+    height: 283px;
+    width: 375px;
+
+}
+.courses .courses-name .name:hover{
+    box-shadow: 0 0 15px  blue;
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+    transition: 0.5s;
+
+}
+.courses .courses-name .name h5 {
+    margin: 20px 0px;
+    
+}
+.courses .courses-name .name h5:hover {
+    margin: 20px 5px;
+    
+}
+.courses .courses-name .name p{
+    
+    color: rgb(128, 124, 124);
+    
+}
+.courses .courses-name .name p:hover{
+    
+    color: rgb(100, 97, 97);
+    
+}
+.courses .courses-name .name .information{
+    display: flex; 
+}
+.courses .courses-name .name ::before{
+    border: 1px solid;
+    width: 0px;
+    margin: 11px -10px;
+}
+.courses .courses-name .name .left{
+    border: 1px solid;
+    margin: 11px -10px;
+
+
+}
+
+
+.Company-Colab{
+    margin-top: 25px;
+    display:flex;
+    justify-content: space-around;
+}
+.colab-text{
+    margin-top:100px;
+    text-align: center;
+}
+.Company-Colab img{
+
+    height: 125px;
+    width: 200px;
+    
+}
+.Form-Idea-1{
+    height: 636px;
+    width: 750px;
+    left: 396px;
+    position:absolute;
+    background-color: rgb(26, 63, 226);
+}
+
+.Form-Idea-2{
+    height: 615px;
+    width: 776px;
+    left: 384px;
+    margin-top: 10px;
+    position:absolute;
+    background-color: rgb(50, 59, 180);
+}
+
+.Form-Idea-3{
+    height: 593px;
+    width: 805px;
+    left: 350px;
+    margin: 21px;
+    position:absolute;
+    padding: 50px 35px;
+    background-color: rgb(122, 146, 224);
+    z-index: 1;
+}
+
+
+.Students-details{
+transition: 0.2s;
+
+
+    height: 800px;
+    width: 95%;
+    margin: 37px;
+    padding-top:50px ;
+    /* margin: 20px; */
+    text-align: center;
+    color: rgb(28, 28, 109);
+    border-radius: 70%;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    opacity: 0.9;
+    
+}
+
+.Students-details:hover{
+    box-shadow: 0 0 10px  blue;
+-ms-transform: scale(1.01);
+-webkit-transform: scale(1.01);
+transform: scale(1.01);
+}
+
+.Students-details h1{
+    text-shadow: 1px 1px 2px blue;
+}
+
+.Working-class{
+    display: flex;
+    margin: 20px;
+}
+.Teacher-details{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 130px;
+}
+
+.Footer{
+    margin-top: 100px;
+    padding-left: 90px;
+    width: 100%;
+    height: 400px;
+    background-color: black;
+    color: rgb(128, 124, 124);
+    display: flex;
+}
+.Footer img{
+    height: 150px;
+    width: 300px;
+}
+.Footer-side-1 a{
+    color: white;
+    font-size: 10px;
+    
+    
+}
+.Footer-side-1 a:hover{
+    color: rgb(228, 220, 220);
+    transition: 0.5s;
+    text-shadow: 1px 1px 2px rgb(255, 255, 255);;
+
+}
+.Footer-side{
+    margin: 50px;
+    margin-left: 200px;
+}
+.Footer-side a{
+    
+    text-decoration: none;
+    color: white;
+    
+    
+}
+.Footer-side a:hover{
+    color: grey;
+    text-shadow: 2px 2px 5px rgb(255, 255, 255);
+    text-decoration: none;
+    color: white;
+}
+
+
+
+.Quick-links-2-4 a{
+    margin-top: 20px;
+    display: block;
+    
+}
+
+.Quick-links-3{
+    margin-top: 20px;
+}
+.Quick-links-3 .social-a a{
+    margin: -5px 10px 26px 10px;
+    display: block;
+    
+}
+
+
+/* About us */
+
+.Csed-Pillars{
+    text-align: center;
+   
+    position: relative;
+    width: 100%;
+    height: 857px;
+    padding-top: 20px;
+}
+.Csed-Pillars video{
+   
+width: 100%;
+height: 100%;
+}
+
+
+.Whole-Pillars{
+    display: flex;
+    margin: 140px 10px 10px 10px;
+    
+    justify-content: space-around;
+}
+
+.Whole-Pillars .Profile {
+    height: 650px;
+    width: 350px;
+    z-index: 1;
+    text-align: center;
+
+}
+
+.Whole-Pillars .Profile img{
+    height: 400px;
+    width: 350px;
+}
+
+
+
+.Csed-Team{
+    background-image: linear-gradient(to right top, #f0dce8, #d4b4ce, #b38fb8, #8e6da4, #634e93, #515098, #38519b, #00539e, #006fb0, #0089b7, #00a2b4, #12b8ad);
+    margin-top: 20px;
+    width: 100%;
+   padding-top: 18px;
+   
+    text-align: center;
+   
+
+    
+}
+
+.video-container{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    z-index: 0;
+}
+
+
+.Whole-Team{
+    display: flex;
+    margin: 40px;
+    z-index: 1;
+    justify-content: space-around;
+    opacity: 1;
+}
+
+.Whole-Team .Profile-Team {
+    height: 650px;
+    width: 350px;
+    text-align: center;
+
+}
+
+.Csed-Team .Whole-Team .Profile-Team img{
+    height: 400px;
+    width:375px;
+}
+
+
+.Clients-Info{
+    background-image: linear-gradient( 177.8deg,  rgba(255,128,0,1) 9.2%, rgba(232,211,59,1) 86.8% );
+
+}
+.Clients-Info .Company-deco{
+    background-color: #d4b4ce;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 60px;
+}
+
