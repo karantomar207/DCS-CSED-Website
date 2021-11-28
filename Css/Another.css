@@ -1,0 +1,106 @@
+/* Contact-Section */
+
+
+
+
+.Background-Image{
+    height: 75vh;
+    width: 100%;
+    background-image: url("/Images/Contact.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 50px 40px;
+    margin-bottom: 100px;
+}
+.Background-Image h1{
+    color: white;
+    font-size: 100px;
+    
+}
+
+
+/* About us Section */
+
+
+.Company-name-1{
+   
+    text-align: center;
+    height: 8vh;
+    margin-top: 100px;
+    width: 100%;
+}
+
+.Company-name-2{
+   
+    text-align: center;
+    height: 7vh;
+    width: 100%;
+}
+.Company-name-1 h1{
+    text-shadow: 1px 1px 2px blue;
+}
+
+.Company-name-2 h1{
+    text-shadow: 1px 1px 2px blue;
+}
+
+
+.Facts{
+    background-color: skyblue;
+    height: 50vh;
+    width: 100%;
+    text-align: center;
+}
+.Facts-line{
+    background-color: aqua;
+    
+}
+
+
+.Clients-Info{
+    text-align: center;
+    margin: 0px 0px;
+    padding: 10px;
+    background-color: white;
+}
+
+.Clients-Info h1{
+    text-align: center;
+    margin: 34px 0px 5px 0px;
+    
+}
+
+.Companies{
+    display: flex;
+    margin: 75px 0px;
+}
+
+
+
+/* Support Under */
+
+.Support-Big{
+    display: flex;
+    padding: 125px;
+    background-image: linear-gradient( 177.8deg,  rgba(255,128,0,1) 9.2%, rgba(232,211,59,1) 86.8% );
+}
+
+.Support-Big .Support-Under-1 .class-mess{
+    display: flex;
+    margin-top: 20px;
+}
+.Support-Big .Support-Under-1 .class-mess a{
+    color: white;
+    margin: 10px 10px;
+    text-decoration: none;
+}
+.Support-Big .Support-Under-1 .class-mess a :hover{
+    color: rgb(165, 161, 161);
+}
+
+.Support-Big .Support-Under-2{
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin-left: 100px;
+    padding: 50px;
+}
